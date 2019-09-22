@@ -74,7 +74,7 @@ two
 ```
 > cd $GOPATH/src/github.com
 > git clone https://github.com/zerogvt/stindex.git
-> cd stindex
+> cd zerogvt/stindex
 > go build
 ```
 
