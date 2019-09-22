@@ -26,7 +26,8 @@ lives in package "jobs" and it is laid up so that it taking care of its own conf
 and execution.
 
 
-# Typical execution (Large input files)
+## Typical execution (Large input files)
+```
 stindex$ cat tests_resources/* | wc -l
  16243100
 stindex$ ./stindex -outfile=final.log tests_resources/*
@@ -36,9 +37,10 @@ stindex$ ./stindex -outfile=final.log tests_resources/*
 .................
 2019/07/09 19:35:11 [INFO] Processed 16243100 search terms. Elapsed time: 18.275413496s
 2019/07/09 19:36:15 [INFO] Unzipped to destination file: final.log Elapsed time: 1m4.521703887s
+```
 
-
-** Typical execution (small files)
+## Typical execution (small files)
+```
 2019/07/09 20:01:34 [INFO] RAM Size: 4
 2019/07/09 20:01:34 [INFO] Input files: [tests_resources/1.log tests_resources/2.log tests_resources/3.log]
 2019/07/09 20:01:34 [INFO] Starting processing.
@@ -66,7 +68,7 @@ ship
 talk
 three
 two
-
+```
 
 # How to build
 Unzip code into $GOPATH/src
