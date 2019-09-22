@@ -72,13 +72,11 @@ two
 
 # How to build
 Unzip code into $GOPATH/src
-IMPORTANT: Make sure you do not have an stindex folder in $GOPATH/src already.
-If you do please move that temporarily somewhere else in order to test this code.
-I would host this code under my github account thus removing any chance of colliding
-but instructions were not to host this code in public github.
+```
 > unzip stindex.zip -d $GOPATH/src
 > cd into $GOPATH/src/stindex
 > go build
+```
 
 # How to run tests:
 > go test ./...
