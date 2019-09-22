@@ -71,10 +71,10 @@ two
 ```
 
 # How to build
-Unzip code into $GOPATH/src
 ```
-> unzip stindex.zip -d $GOPATH/src
-> cd into $GOPATH/src/stindex
+> cd $GOPATH/src/github.com
+> git clone https://github.com/zerogvt/stindex.git
+> cd stindex
 > go build
 ```
 
