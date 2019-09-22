@@ -2,7 +2,7 @@
 A program to sort the strings of various files in a memory-efficient way.
 
 # About
-stindex is a small project that I was asked to do as part of an interviewing process. The challenge was to write a program which would have several files as input. Each of the files would host an unordered list of search terms. The program would ultimatelly create an output file with the ordered list of the search terms of the individual files. An added twist was that the available memory to host the search terms should be variable and could go down to 1. That is, at any time, the program could only have just one term hosted in memory.
+stindex is a small project that I did while learning golang. The challenge was to write a program which would have several files as input. Each of the files would host an unordered list of search terms. The program would ultimatelly create an output file with the ordered list of the search terms of the individual files. An added twist was that the available memory to host the search terms should be variable and could go down to 1. That is, at any time, the program could only have just one term hosted in memory.
 
 # Basic Architectural Tenets
 The workhorse data structure is a special Binary Search Tree (BST) and its code lives in package "trees".
@@ -83,6 +83,3 @@ but instructions were not to host this code in public github.
 
 # How to get help/see usage:
 > ./stindex -h
-
-# Did you get the job?
-I wasn't asked about this project again in the process after submitting it despite it being good enough to land me an on-site interview. At that interviewers weren't impressed with my whiteboard coding skills so I got no offer and the whole process was just a big waste of time for me, which I'm trying to alleviate just a bit by publishing the take-home project here.
